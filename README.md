@@ -9,7 +9,7 @@ The objective of this project is to validate the reported performance of the YOL
 
 ---
 
-## 🚀 How to Run
+## Steps to Run
 
 ### 1. Install the Ultralytics Package
 
