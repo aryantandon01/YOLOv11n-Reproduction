@@ -22,3 +22,11 @@ Download the following from the COCO website:
 val2017.zip
 
 annotations_trainval2017.zip
+
+Unzip them and organize as:
+
+datasets/coco/images/val2017/
+datasets/coco/annotations/instances_val2017.json
+
+
+### 3. Convert Annotations to YOLO Format
