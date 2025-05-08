@@ -34,21 +34,13 @@ YOLOv11n-Reproduction/
 
 ## 🚀 How to Run
 
-### 1. Clone the Ultralytics YOLOv11 Repository
+### 1. Install Ultralytics 
 
 ```bash
-git clone https://github.com/ultralytics/ultralytics.git
-cd ultralytics
-pip install -e .
+pip install ultralytics
 ```
 
-### 2. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Download COCO val2017 Dataset
+### 2. Download COCO val2017 Dataset
 
 Download the following from the [COCO website](https://cocodataset.org/#download):
 
@@ -62,11 +54,13 @@ datasets/coco/images/val2017/
 datasets/coco/annotations/instances_val2017.json
 ```
 
-### 4. Convert Annotations to YOLO Format
+### 3. Convert Annotations to YOLO Format
 
-Use a conversion script like `general_json2yolo.py` to generate YOLO-format `.txt` files under `datasets/coco/labels/val2017/`.
+Use JSON2YOLO to generate YOLO-format `.txt` files under `datasets/coco/labels/val2017/`.
 
-### 5. Evaluate YOLOv11n
+### 4. Evaluate YOLOv11n
+
+You can either use the main.py file or run the following script. Both of them serve the same function.
 
 ```bash
 yolo val model=yolo11n.pt data=coco.yaml imgsz=640
