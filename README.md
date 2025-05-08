@@ -57,7 +57,7 @@ Use JSON2YOLO to generate YOLO-format `.txt` files under `datasets/coco/labels/v
 
 ### 4. Evaluate YOLOv11n
 
-You can either use the main.py file or run the following script. Both of them serve the same function.
+You can either use the main.py file or run the following script. Both serve the same function.
 
 ```bash
 yolo val model=yolo11n.pt data=coco.yaml imgsz=640
@@ -90,10 +90,3 @@ yolo val model=yolo11n.pt data=coco.yaml imgsz=640
 ## 📃 License
 
 This project uses the AGPLv3 License as per the Ultralytics repo.
-
----
-
-## 🤛️ Author
-
-Aryan Tandon
-\[Your GitHub or LinkedIn if applicable]
