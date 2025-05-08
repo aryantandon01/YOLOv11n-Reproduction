@@ -1,4 +1,4 @@
-# 🧠 YOLOv11n COCO Reproduction
+# 🧠 YOLOv11n Reproduction
 
 This repository contains the code, configuration, and results for reproducing the evaluation of the **YOLOv11n (nano)** model as described in the paper:
 
@@ -84,9 +84,3 @@ yolo val model=yolo11n.pt data=coco.yaml imgsz=640
 * YOLOv11 Paper: [arXiv:2410.17725](https://arxiv.org/abs/2410.17725)
 * Official Implementation: [Ultralytics GitHub](https://github.com/ultralytics/ultralytics)
 * COCO Dataset: [cocodataset.org](https://cocodataset.org/#home)
-
----
-
-## 📃 License
-
-This project uses the AGPLv3 License as per the Ultralytics repo.
